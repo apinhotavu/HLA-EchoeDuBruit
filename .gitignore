@@ -1,18 +1,15 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+#Games Files
+/game/_toolsettings/
+/game/bin/
+/game/core/
+/game/hlvr/
+/game/hlvr_addons/audio_new_sound/
+/game/hlvr_addons/custom_character/
 
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+#Content Files
+/content/core/
+/content/hlvr/
+/content/hlvr_addons/addon_template
+/content/hlvr_addons/audio_new_sound
+/content/hlvr_addons/custom_character
+/content/core/maps/editor
