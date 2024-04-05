@@ -1,4 +1,9 @@
-#Games Files
+#../Game
+	#Files
+game/thirdpartylegalnotices.txt
+game/hlvr_addons/hlvrcfg.cfg
+	
+	#Directory
 /game/_toolsettings/
 /game/bin/
 /game/core/
@@ -6,11 +11,12 @@
 /game/hlvr_addons/audio_new_sound/
 /game/hlvr_addons/custom_character/
 
-#Content Files
+
+
+#../Content
+	#Directory
 /content/core/
 /content/hlvr/
 /content/hlvr_addons/addon_template
 /content/hlvr_addons/audio_new_sound
 /content/hlvr_addons/custom_character
-#test
-/content/hlvr/
