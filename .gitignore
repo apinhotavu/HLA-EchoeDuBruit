@@ -8,6 +8,8 @@ game/hlvr_addons/hlvrcfg.cfg
 /game/bin/
 /game/core/
 /game/hlvr/
+/game/hlvr_addons/houseofcrabs/_vrad3
+/game/hlvr_addons/houseofcrabs/_bakeresourcecache
 /game/hlvr_addons/audio_new_sound/
 /game/hlvr_addons/custom_character/
 
@@ -17,6 +19,8 @@ game/hlvr_addons/hlvrcfg.cfg
 	#Directory
 /content/core/
 /content/hlvr/
+/content/hlvr_addons/houseofcrabs/_bakeresourcecache
 /content/hlvr_addons/addon_template
 /content/hlvr_addons/audio_new_sound
 /content/hlvr_addons/custom_character
+game/hlvr_addons/houseofcrabs/tools_thumbnail_cache.bin

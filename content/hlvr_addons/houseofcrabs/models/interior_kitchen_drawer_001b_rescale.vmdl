@@ -1,0 +1,186 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models\\dmx\\mesh\\interior_kitchen_drawer_001b_rescale.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "MaterialGroup"
+						name = "painted"
+						remaps = 
+						[
+							{
+								from = "materials/models/props/interior_deco/interior_furniture_wood_002.vmat"
+								to = "materials/models/props/interior_deco/interior_furniture_wood_002_painted.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "painted_clean"
+						remaps = 
+						[
+							{
+								from = "materials/models/props/interior_deco/interior_furniture_wood_002.vmat"
+								to = "materials/models/props/interior_deco/interior_furniture_wood_001_painted_clean.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "wood_clean"
+						remaps = 
+						[
+							{
+								from = "materials/models/props/interior_deco/interior_furniture_wood_002.vmat"
+								to = "materials/models/props/interior_deco/interior_furniture_wood_001_clean.vmat"
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 0.067701, 0.268999, 0.490263 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 15.878172, 0.557063, 4.196667 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ -0.000179, -0.136329, -0.007813 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 14.413658, 0.272382, 2.691494 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ -0.000179, -10.539222, -0.002268 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 14.413658, 0.272382, 2.680404 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 6.936076, -5.335315, -0.002268 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 0.541146, 10.16033, 2.680404 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ -6.935808, -5.335315, -0.002272 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 0.541146, 10.16033, 2.680395 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 0.004944, -5.33031, -1.080221 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 13.338137, 10.135234, 0.301014 ]
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = ""
+							allowstatic = true
+							bakelighting = true
+							damage_table = ""
+							"dmg.bullets" = -1.0
+							"dmg.club" = -1.0
+							"dmg.explosive" = -1.0
+							"dmg.fire" = -1.0
+							health = -1.0
+							spawn_motion_disabled = false
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "hand_pose_pair"
+						game_keys = 
+						{
+							sequence = "idle"
+							pose_special_type = "2"
+							conform_fingers = false
+							allow_flip = true
+							parent_bone = ""
+							origin_left = [ 3.43371, 3.50216, 2.18223 ]
+							angles_left = [ -1.52104, -90.7525, 84.0592 ]
+							origin_right = [ -1.75664, 3.43154, 2.33859 ]
+							angles_right = [ -1.52104, -89.2475, -84.0592 ]
+							max_distance = 1.5
+							finger_thumb = 0.558
+							finger_pinky = 0.558
+							finger_ring = 0.419
+							finger_middle = 0.227
+							finger_index = 0.257
+							has_extent = true
+							show_extent_helper = true
+							extent_origin_left = [ -5.43963, 3.157, 2.0 ]
+							extent_origin_min_left = [ 0.0, 0.0, -1.0 ]
+							extent_origin_right = [ 5.05153, 3.45417, 1.96138 ]
+							extent_origin_min_right = [ 0.0, 0.0, 1.0 ]
+							has_rotation = true
+							rotation_axis0 = [ 8.0, 0.700475, 2.5 ]
+							rotation_axis1 = [ -8.0, 0.700475, 2.5 ]
+							rotation_min = 20.0
+							rotation_max = 20.0
+							pivot_min = 0.0
+							pivot_max = 0.0
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

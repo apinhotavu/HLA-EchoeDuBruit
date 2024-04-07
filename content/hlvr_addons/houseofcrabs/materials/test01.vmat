@@ -1,0 +1,50 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_monitor.vfx"
+
+	//---- Rendering ----
+	F_DO_NOT_CAST_SHADOWS 1
+
+	//---- Translucent ----
+	F_ADDITIVE_BLEND_OVER_ALPHA 1
+
+	//---- Additive Blend Over Alpha ----
+	g_flAlphaOutputMaximum "0.000"
+	g_flAlphaOutputMinimum "0.000"
+
+	//---- Chromatic Abberation ----
+	g_flBlueShift "0.803"
+	g_flGreenShift "0.511"
+	g_flJitterSpeed "0.292"
+	g_flRedShift "0.876"
+	TextureJitterControl "materials/workshop_examples/monitor/jitter_control.tga"
+
+	//---- Contrast ----
+	TextureContrastControl "materials/workshop_examples/monitor/contrast_control.tga"
+
+	//---- Display ----
+	g_flFilmGrainStrength "0.298"
+	g_flTexCoordOffsetU "0.000"
+	g_flTexCoordOffsetV "0.000"
+	g_flTintScale "1.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vScanlineTextureOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	ScanlineDistortion "[0.501961 0.501961 1.000000 0.000000]"
+	TextureColor "materials/workshop_examples/monitor/russell_monitor_desktop_02_color.tga"
+	TextureFilmGrain "materials/workshop_examples/monitor/film_grain_01.png"
+	TextureScanlines "materials/workshop_examples/monitor/scanline_1024.png"
+	TextureVignette "materials/workshop_examples/monitor/vignette_01.png"
+
+	//---- Specular ----
+	g_flReflectionStrength "0.000"
+	g_fSpecularRoughness "0.350"
+	SpecularDirt "[0.000000 0.000000 0.000000 1.000000]"
+	SpecularDistortion "[0.501961 0.501961 1.000000 0.000000]"
+
+	//---- VSYNC ----
+	g_flVSYNCJumpScale "0.066"
+	VSyncControl "materials/workshop_examples/monitor/vsync_control.tga"
+}
