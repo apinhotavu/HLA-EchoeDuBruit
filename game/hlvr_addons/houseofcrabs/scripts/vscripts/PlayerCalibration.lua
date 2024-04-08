@@ -28,8 +28,7 @@ local calibrationStateEnum = {
 local calibrationState = calibrationStateEnum.NOT_STARTED
 local handActionStateEnum = {
     NO_ACTION = 0,
-    ACTION = 1,
-    DISABLED = 2
+    ACTION = 1
 }
 local handActionState = handActionStateEnum.NO_ACTION
 ---@type CBasePlayer
