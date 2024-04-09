@@ -76,7 +76,7 @@ function HandTriggerDetection()
                 --print("squezzing")
                 particle = ParticleManager:CreateParticle("particles/choreo/dog_grav_hand.vpcf", PATTACH_POINT, screen)
                 ParticleManager:SetParticleControlEnt(particle, 0, screen, PATTACH_POINT, nil, Vector(0,0,0), false)
-                ParticleManager:SetParticleControlEnt(particle, 3, Entities:GetLocalPlayer():GetHMDAvatar():GetVRHand(1), PATTACH_POINT_FOLLOW, "vr_hand_origin", Vector(0,0,0), true)
+                ParticleManager:SetParticleControlEnt(particle, 3, Entities:GetLocalPlayer():GetHMDAvatar():GetVRHand(1), PATTACH_POINT_FOLLOW, "vr_hand_origin", Vector(0,0,0), false)
                 
                 handActionState = handActionStateEnum.ACTION
             end
