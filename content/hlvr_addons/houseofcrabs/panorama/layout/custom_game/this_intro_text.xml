@@ -1,0 +1,22 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/base_styles.vcss_c" />
+		<include src="s2r://panorama/styles/custom_game/this_intro_text.vcss_c" />
+    <include src="s2r://panorama/styles/language_shared.vcss_c" />
+	</styles>
+
+	<Panel class="TextContainer">
+		<Panel id="IntroText07" class="TextLine">
+			<Panel class="TextBox">
+				<Label text="Hello " />
+				<Label class="emphasis" text="world!" />
+			</Panel>
+			<Panel class="TextBox">
+				<Label text="Commo " />
+				<Label class="emphasis" text="esta?" />
+			</Panel>
+		</Panel>
+	</Panel>
+</root>
+
+

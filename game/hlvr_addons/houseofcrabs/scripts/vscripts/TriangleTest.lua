@@ -6,7 +6,7 @@ local rewindSpeed = 0.5
 local rewindPos = Vector(0,0,0)
 
 function Spawn()
-    thisEntity:SetContextThink("TriangleTest", TriangleTest, 0)
+    --thisEntity:SetContextThink("TriangleTest", TriangleTest, 0)
 end
 
 function TriangleTest()
